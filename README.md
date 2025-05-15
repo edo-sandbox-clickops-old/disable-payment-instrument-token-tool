@@ -5,9 +5,10 @@
 The Membership Payment Instrument Token Manager is a Next.js web application designed to help internal teams disable member payment instrument tokens by interacting with various internal microservices. It provides a user-friendly interface for processing individual members or handling batch operations via CSV uploads. The application also includes an AI-powered chat interface to query processing results and uploaded data.
 
 This tool streamlines the process of:
-* Identifying memberships's recurring collections based on email, prime status, and brand.
-* Extracting payment instrument token relationships.
-* Calling internal APIs to disable these tokens.
+
+* Identifying memberships's recurring collections based on email, prime status, and brand. 
+* Extracting payment instrument token relationships. 
+* Calling internal APIs to disable these tokens. 
 * Providing detailed feedback and logs for each operation.
 
 ## Features
@@ -52,8 +53,8 @@ Before you begin, ensure you have the following installed and configured:
 If the project is in a Git repository, clone it to your local machine:
 
 ```bash
-git clone <your-repository-url>
-cd <repository-name>
+git clone https://ZubairAbubakar@bitbucket.org/odigeoteam/disable-payment-instrument-token-tool.git
+cd disable-payment-instrument-token-tool
 ```
 
 ### 2. Install Dependencies
@@ -70,7 +71,7 @@ pnpm install
 ### 3. Environment Variables
 Create a .env.local file in the root of the project. This file will store your environment-specific configurations. Add the following variables, replacing the placeholder values with your actual configuration:
 
-```Code snippet
+```bash
 # .env.local
 
 # Google Cloud Vertex AI Configuration
