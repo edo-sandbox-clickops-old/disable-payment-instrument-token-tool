@@ -1,0 +1,4 @@
+# Auto-generated CODEOWNERS file
+
+* @user1
+*.py @user1 @team1
